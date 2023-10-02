@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "gen-key": "web-push generate-vapid-keys"
+    "gen-key": "web-push generate-vapid-keys",
+    "start": "node index"
   },
   "keywords": [],
   "author": "",

@@ -21,7 +21,7 @@ app.post('/subscribe', async (req, res) => {
   const subscription = req.body
 
   // create payload
-  const payload = JSON.stringify({ title: 'Push test' })
+  const payload = JSON.stringify({ title: 'Push test' , body: 'random body content' })
 
   try {
     // Pass object into sendNotification
