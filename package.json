@@ -1,0 +1,17 @@
+{
+  "name": "push_notification_study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen-key": "web-push generate-vapid-keys"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "web-push": "^3.6.6"
+  }
+}
